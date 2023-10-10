@@ -1,0 +1,178 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+main {
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.right {
+    width: 70%;
+}
+.left {
+    width: 30%;
+    padding-top: 20px;
+    color: #e5e5e5;
+    background-color: #694f1ae7;
+}
+.left, .right, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+.img {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.img img {
+    width: 70%;
+    max-height: 135px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.img h2 {
+    margin-top: 8px;
+    font-size: 1.5vw;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+.left h3 i {
+    color: #e5e5e598;
+    padding-right: 7px;
+}
+.left, .right, p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+}
+.left, .right, h3 {
+    font-size: 1.5vw;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+.contact, .skill, .lang {
+    width: 90%;
+    margin: 40px auto;
+
+}
+.contact p i {
+    padding-right: 14px;
+    color: rgb(203, 222, 57);
+}
+.skill ul {
+    padding: 0%;
+}
+.skill ul li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+    line-height: 2.4;
+
+}
+.skill ul li i {
+    font-size: 0.9vw;
+    color: rgb(222, 211, 57);
+    padding-right: 12px;
+}
+
+.lang .progress {
+    width: 80%;
+    height: 5px;
+}
+.lang p {
+    padding: 0%;
+    margin: 0%;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+
+.right {
+    background-color: #e5e5e5;
+}
+.right h3 {
+    color: #042140e7;
+}
+.right i {
+    padding-right: 12px;
+}
+.right .about {
+    width: 92%;
+    margin: auto;
+    padding: 30px 20px;
+}
+.about p {
+    font-size: 1.2vw;
+}
+.right .education {
+    width: 92%;
+    margin: auto;
+}
+
+
+.education div {
+    width: 90%;
+    margin: 20px auto;
+}
+.education div p {
+    font-size: 1.2vw;
+    padding: 0%;
+    padding-top: 1.5px;
+    margin: 0%;
+    line-height: normal;
+}
+.education div .size {
+    font-size: 0.9vw;
+    padding-top: 1.5px;
+}
+.education div span {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(6, 4, 49);
+    font-size: 0.9vw;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+@media only screen and (max-width: 450px) {
+    main {
+        display: block;
+    }
+    .left {
+    padding-top: 20px;
+    }
+    .left, .right {
+        width: 99%;
+        margin: auto;
+    }
+    .img img {
+        width: 50%;
+    }
+    .img h2 {
+        font-size: 3.55vw;
+    }
+    .left, .right, h3 {
+        font-size: 3.55vw;
+    }
+    .education div {
+        margin: 30px 0;
+        border-left: 1px solid #04214051;
+        padding: 0%;
+        padding-left: 5px;
+        margin-left: 5px;
+    }
+    .left, .right, p, .education div span, .education div .size, .skill ul li i, .skill ul li {
+        font-size: 2.44vw;
+    }
+    .about p, .education div p {
+        font-size: 2.99vw;
+        line-height: 1.7;
+    }
+}
